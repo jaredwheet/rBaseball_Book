@@ -1,4 +1,4 @@
-## Chapter 1 exercises
+## Chapter 1 exercises...
 spahn <- read_csv("data/spahn.csv")
 spahn %>% 
   mutate(FIP = (13 * HR + 3 * BB - 2 * SO) / IP) -> spahn
